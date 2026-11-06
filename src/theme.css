@@ -1,0 +1,20 @@
+/* Floodivo theme */
+:root {
+  --pp-accent: #0e6377;
+  --pp-accent-hover: #0b5263;
+  --pp-accent2: #ff9f43;
+  --pp-ink: #0f2229;
+  --pp-muted: #4b6068;
+  --pp-paper: #f3f7f8;
+  --pp-tint: #e4eef0;
+  --pp-card: #ffffff;
+  --pp-line: #d3e1e4;
+  --pp-dark: #0b2530;
+  --pp-dark-ink: #ecf6f8;
+  --pp-serif: 'Archivo', system-ui, sans-serif;
+  --pp-sans: 'Inter', system-ui, sans-serif;
+  --pp-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --pp-display-weight: 600;
+}
+h1, h2, .pp h2, .pp-manifesto-text, .pp-timeline h3 { font-weight: 600; letter-spacing: -.04em; }
+.pp-letter-body { font-family: var(--pp-sans); font-size: clamp(17px, 1.5vw, 20px); }
